@@ -1,4 +1,4 @@
-package fundamentos.controle;
+package controle;
 
 import javax.swing.*;
 

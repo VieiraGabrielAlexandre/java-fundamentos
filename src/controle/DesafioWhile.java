@@ -1,6 +1,5 @@
-package fundamentos.controle;
+package controle;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class DesafioWhile {
