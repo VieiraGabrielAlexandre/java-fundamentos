@@ -4,7 +4,16 @@ public class Carro {
     final int VELOCIDADE_MAXIMA;
     final int VELOCIDADE_MINIMA = 0;
     int velocidade = 0;
-    int delta = 500;
+
+    public int getDelta() {
+        return delta;
+    }
+
+    public void setDelta(int delta) {
+        this.delta = delta;
+    }
+
+    private int delta = 5;
 
     Carro(int velocidadeMaxima) {
         VELOCIDADE_MAXIMA = velocidadeMaxima;

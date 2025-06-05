@@ -6,7 +6,7 @@ import oo.heranca.desafio.Ferrari;
 
 public class Corrida {
     public static void main(String[] args) {
-        Carro ferrari = new Ferrari(580);
+        Ferrari ferrari = new Ferrari(580);
         Carro bugatti = new Bugatti();
 
         System.out.println("Acelerando Ferrari: " + ferrari.acelerar());
@@ -24,5 +24,11 @@ public class Corrida {
         System.out.println("Freando Ferrari: " + ferrari.acelerar());
         System.out.println("Freando Ferrari: " + ferrari.acelerar());
         System.out.println("Freando Ferrari: " + ferrari.acelerar());
+
+        ferrari.ligarTurbo();
+        System.out.println("Freando Ferrari: " + ferrari.acelerar());
+        System.out.println("Freando Ferrari: " + ferrari.acelerar());
+
+        ferrari.velocidadeDoAr(2);
     }
 }
